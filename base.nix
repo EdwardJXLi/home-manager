@@ -17,6 +17,7 @@
 
     # Networking & Internet
     curl
+    dig
     openssh
     wget
 
