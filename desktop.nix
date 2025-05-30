@@ -17,11 +17,13 @@ in {
   # Desktop packages
   home.packages = with pkgs; [
     # Core Apps
-    mozillaNightly.latest.firefox-nightly-bin
     vlc
 
     # KDE Apps
     kdePackages.konsole
+
+    # Firefox Nightly
+    mozillaNightly.latest.firefox-nightly-bin
 
     # Unfree Apps
     unfree.vscode
