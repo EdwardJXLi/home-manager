@@ -3,11 +3,27 @@
 {
   # Base / core system packages
   home.packages = with pkgs; [
-    curl
+    # Shell & Terminal Utilities
+    bash
     git
-    htop
+    less
+    screen
+    tmux
+    zsh
+
+    # Text Editors
     nano
     vim
-    zsh
+
+    # Networking & Internet
+    curl
+    openssh
+    wget
+
+    # System Tools & Utilities
+    htop
+    tree
+    unzip
+    which
   ];
 }
