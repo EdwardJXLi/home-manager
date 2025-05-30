@@ -1,6 +1,10 @@
 { pkgs, ... }:
 
-{
+let
+  unfree = import <nixpkgs> {
+    config.allowUnfree = true;
+  };
+in {
   # Extra / non-required packages
   home.packages = with pkgs; [
     # CLI Tools
@@ -8,5 +12,8 @@
     glances
     lazygit
     tldr
+
+    # Unfree Packages
+    unfree.claude-code
   ];
 }
