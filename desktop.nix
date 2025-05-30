@@ -17,15 +17,21 @@ in {
   # Desktop packages
   home.packages = with pkgs; [
     # Core Apps
+    audacity
+    bitwarden-desktop
+    chromium
+    gimp
     vlc
 
     # KDE Apps
     kdePackages.konsole
+    kdePackages.yakuake
 
     # Firefox Nightly
     mozillaNightly.latest.firefox-nightly-bin
 
     # Unfree Apps
+    unfree.discord-canary
     unfree.vscode
   ];
 }
