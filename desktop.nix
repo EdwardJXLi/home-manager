@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ config, lib, pkgs, ... }:
 
 let
   unfree = import <nixpkgs> {
@@ -13,9 +13,21 @@ let
   mozillaNightly = import <nixpkgs> {
     overlays = [ nightlyOverlay ];
   };
+
+  # Create shorter aliases for nixGL wrapping
+  wrapGL = config.lib.nixGL.wrap;
+  wrapGlAll = packages: map wrapGL packages;
 in {
+  # Setup libGL to use system opengl
+  nixGL.packages = import (builtins.fetchTarball {
+    url = "https://github.com/nix-community/nixGL/archive/main.tar.gz";
+  }) { inherit pkgs; };
+
+  nixGL.defaultWrapper = "mesa";  # Use mesa for AMD
+  nixGL.installScripts = [ "mesa" ];  # Install nixGLMesa script
+
   # Desktop packages
-  home.packages = with pkgs; [
+  home.packages = wrapGlAll (with pkgs; [
     # Core Apps
     audacity
     bitwarden-desktop
@@ -31,5 +43,5 @@ in {
     # Unfree Apps
     unfree.discord-canary
     unfree.vscode
-  ];
+  ]);
 }
