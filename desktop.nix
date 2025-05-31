@@ -23,10 +23,6 @@ in {
     gimp
     vlc
 
-    # KDE Apps
-    kdePackages.konsole
-    kdePackages.yakuake
-
     # Firefox Nightly
     mozillaNightly.latest.firefox-nightly-bin
 
