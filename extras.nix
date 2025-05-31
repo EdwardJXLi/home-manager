@@ -12,6 +12,7 @@ in {
     glances
     lazygit
     neovim
+    shell-gpt
     tldr
 
     # Unfree Packages
