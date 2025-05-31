@@ -45,4 +45,10 @@ in {
     unfree.slack
     unfree.vscode
   ]);
+
+  # Fix cursors for Electron apps
+  home.sessionVariables = {
+    XCURSOR_SIZE = 24;
+    XCURSOR_PATH = "/usr/share/icons";
+  };
 }
