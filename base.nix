@@ -18,6 +18,7 @@
     # Networking & Internet
     curl
     dig
+    netcat
     openssh
     wget
 
