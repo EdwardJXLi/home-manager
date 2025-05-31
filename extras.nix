@@ -11,6 +11,7 @@ in {
     btop
     glances
     lazygit
+    neovim
     tldr
 
     # Unfree Packages
