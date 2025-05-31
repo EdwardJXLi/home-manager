@@ -21,6 +21,8 @@ in {
     bitwarden-desktop
     chromium
     gimp
+    gparted
+    obs-studio
     vlc
 
     # Firefox Nightly
