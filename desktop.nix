@@ -42,6 +42,7 @@ in {
 
     # Unfree Apps
     unfree.discord-canary
+    unfree.slack
     unfree.vscode
   ]);
 }
