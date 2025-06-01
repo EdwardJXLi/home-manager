@@ -15,6 +15,10 @@ in {
     shell-gpt
     tldr
 
+    # Development Packages
+    python313
+    uv
+
     # Unfree Packages
     unfree.claude-code
   ];
