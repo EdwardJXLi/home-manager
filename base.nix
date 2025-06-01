@@ -23,6 +23,7 @@
     wget
 
     # System Tools & Utilities
+    direnv
     htop
     tree
     unzip
