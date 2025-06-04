@@ -37,6 +37,12 @@ in {
     obs-studio
     vlc
 
+    # KDE Apps
+    kdePackages.dolphin
+    kdePackages.gwenview
+    kdePackages.kate
+    kdePackages.okular
+
     # Firefox Nightly
     mozillaNightly.latest.firefox-nightly-bin
 
