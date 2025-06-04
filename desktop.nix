@@ -36,6 +36,7 @@ in {
     gparted
     inkscape
     krita
+    libreoffice
     obs-studio
     vlc
 
