@@ -34,6 +34,8 @@ in {
     chromium
     gimp
     gparted
+    inkscape
+    krita
     obs-studio
     vlc
 
