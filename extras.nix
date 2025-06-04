@@ -14,6 +14,7 @@ in {
     neovim
     shell-gpt
     tldr
+    zellij
 
     # Development Packages
     python313
