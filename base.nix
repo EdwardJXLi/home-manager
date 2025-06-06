@@ -28,5 +28,6 @@
     tree
     unzip
     which
+    zip
   ];
 }

@@ -12,6 +12,7 @@ in {
     glances
     lazygit
     neovim
+    p7zip
     shell-gpt
     tldr
     zellij
@@ -22,5 +23,6 @@ in {
 
     # Unfree Packages
     unfree.claude-code
+    unfree.rar
   ];
 }
