@@ -39,7 +39,6 @@ in {
     # Core Apps
     audacity
     bitwarden-desktop
-    chromium
     gimp
     gparted
     inkscape
@@ -58,9 +57,12 @@ in {
     mozillaNightly.latest.firefox-nightly-bin
 
     # Unfree Apps
-    unfree.discord-canary
     unfree.slack
     unfree.vscode
+
+    # Unstable / Latest Packages
+    unstable.chromium
+    unstable.discord-canary
   ]);
 
   # Fix cursors for Electron apps
