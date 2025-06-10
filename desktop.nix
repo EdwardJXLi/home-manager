@@ -1,8 +1,16 @@
 { config, lib, pkgs, ... }:
 
 let
+  # Unfree packages
   unfree = import <nixpkgs> {
     config.allowUnfree = true;
+  };
+
+  # Unstable packages channel
+  unstable = import (builtins.fetchTarball {
+    url = "https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz";
+  }) {
+    config.allowUnfree = true;  # Allow unfree packages in unstable too
   };
 
   # Mozilla overlay for Firefox Nightly
