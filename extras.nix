@@ -30,7 +30,9 @@ in {
     uv
 
     # Unfree Packages
-    unfree.claude-code
     unfree.rar
+
+    # Unstable / Latest Packages
+    unstable.claude-code
   ];
 }
