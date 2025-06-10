@@ -33,6 +33,7 @@ in {
 
   nixGL.defaultWrapper = "mesa";  # Use mesa for AMD
   nixGL.installScripts = [ "mesa" ];  # Install nixGLMesa script
+  nixGL.vulkan.enable = true;
 
   # Desktop packages
   home.packages = wrapGlAll (with pkgs; [
