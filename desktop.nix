@@ -64,6 +64,7 @@ in {
     # Unstable / Latest Packages
     unstable.chromium
     unstable.discord-canary
+    unstable.zed-editor
   ]);
 
   # Fix cursors for Electron apps
