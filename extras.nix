@@ -29,6 +29,7 @@ in {
 
     # Development Packages
     buildah
+    distrobox
     podman
     podman-compose
     python313
