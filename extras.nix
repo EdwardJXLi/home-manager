@@ -32,6 +32,7 @@ in {
     podman
     podman-compose
     python313
+    qemu
     uv
 
     # Unfree Packages
