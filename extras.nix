@@ -19,6 +19,7 @@ in {
     btop
     glances
     lazygit
+    neofetch
     neovim
     p7zip
     shell-gpt
