@@ -27,6 +27,7 @@ in {
     zellij
 
     # Development Packages
+    podman
     python313
     uv
 
