@@ -40,6 +40,7 @@ in {
     # Core Apps
     audacity
     bitwarden-desktop
+    boxbuddy
     emote
     gimp
     gparted

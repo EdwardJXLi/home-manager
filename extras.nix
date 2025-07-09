@@ -17,6 +17,7 @@ in {
   home.packages = with pkgs; [
     # CLI Tools
     btop
+    distrobox-tui
     glances
     lazygit
     neofetch
