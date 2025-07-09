@@ -47,6 +47,7 @@ in {
     krita
     libreoffice
     obs-studio
+    podman-desktop
     vlc
 
     # KDE Apps

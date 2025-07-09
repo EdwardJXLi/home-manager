@@ -22,12 +22,14 @@ in {
     neofetch
     neovim
     p7zip
+    podman-tui
     shell-gpt
     tldr
     zellij
 
     # Development Packages
     podman
+    podman-compose
     python313
     uv
 
