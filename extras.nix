@@ -28,6 +28,7 @@ in {
     zellij
 
     # Development Packages
+    buildah
     podman
     podman-compose
     python313
