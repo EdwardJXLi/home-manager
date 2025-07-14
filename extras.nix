@@ -38,5 +38,6 @@ in {
 
     # Unstable / Latest Packages
     unstable.claude-code
+    unstable.codex
   ];
 }
