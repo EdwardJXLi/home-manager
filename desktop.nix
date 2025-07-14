@@ -47,6 +47,7 @@ in {
     inkscape
     krita
     libreoffice
+    librewolf
     obs-studio
     podman-desktop
     vlc
