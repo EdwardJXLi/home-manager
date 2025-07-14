@@ -52,6 +52,7 @@ in {
     vlc
 
     # KDE Apps
+    kdePackages.ark
     kdePackages.dolphin
     kdePackages.gwenview
     kdePackages.kate
