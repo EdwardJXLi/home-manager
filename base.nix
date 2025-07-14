@@ -13,6 +13,7 @@
 
     # Text Editors
     nano
+    neovim
     vim
 
     # Networking & Internet
@@ -23,8 +24,11 @@
     wget
 
     # System Tools & Utilities
+    btop
     direnv
     htop
+    neofetch
+    p7zip
     tree
     unzip
     which

@@ -16,13 +16,9 @@ in {
   # Extra / non-required packages
   home.packages = with pkgs; [
     # CLI Tools
-    btop
     distrobox-tui
     glances
     lazygit
-    neofetch
-    neovim
-    p7zip
     podman-tui
     shell-gpt
     tldr
