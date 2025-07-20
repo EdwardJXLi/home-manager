@@ -51,6 +51,7 @@ in {
     obs-studio
     podman-desktop
     vlc
+    zed-editor
 
     # KDE Apps
     kdePackages.ark
@@ -69,7 +70,6 @@ in {
     # Unstable / Latest Packages
     unstable.chromium
     unstable.discord-canary
-    unstable.zed-editor
   ]);
 
   # Fix cursors for Electron apps

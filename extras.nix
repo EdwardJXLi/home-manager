@@ -16,7 +16,9 @@ in {
   # Extra / non-required packages
   home.packages = with pkgs; [
     # CLI Tools
+    codex
     distrobox-tui
+    gemini-cli
     glances
     lazygit
     podman-tui
@@ -38,7 +40,5 @@ in {
 
     # Unstable / Latest Packages
     unstable.claude-code
-    unstable.codex
-    unstable.gemini-cli
   ];
 }
