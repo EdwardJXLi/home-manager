@@ -16,7 +16,6 @@ in {
     # CLI Tools
     codex
     distrobox-tui
-    gemini-cli
     glances
     lazygit
     podman-tui
@@ -38,5 +37,6 @@ in {
 
     # Unstable / Latest Packages
     unstable.claude-code
+    unstable.gemini-cli
   ];
 }
