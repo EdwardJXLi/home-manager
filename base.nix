@@ -5,6 +5,7 @@
   home.packages = with pkgs; [
     # Shell & Terminal Utilities
     bash
+    file
     git
     less
     screen
