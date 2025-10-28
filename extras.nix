@@ -25,7 +25,9 @@ in {
 
     # Development Packages
     buildah
+    corepack
     distrobox
+    nodejs_24
     podman
     podman-compose
     python313
