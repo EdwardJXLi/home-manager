@@ -32,6 +32,7 @@
     p7zip
     tree
     unzip
+    usbutils
     which
     zip
   ];
