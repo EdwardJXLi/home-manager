@@ -63,6 +63,7 @@ in {
     mozillaNightly.latest.firefox-nightly-bin
 
     # Unfree Apps
+    unfree.jetbrains.idea-ultimate
     unfree.slack
     unfree.vscode
 
