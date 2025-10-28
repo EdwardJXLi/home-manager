@@ -28,6 +28,7 @@ in {
     corepack
     distrobox
     nodejs_24
+    rustup
     podman
     podman-compose
     python313
