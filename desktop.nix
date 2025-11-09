@@ -48,6 +48,7 @@ in {
     krita
     libreoffice
     librewolf
+    nwg-displays
     obs-studio
     podman-desktop
     vlc
