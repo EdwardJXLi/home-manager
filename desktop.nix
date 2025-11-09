@@ -69,6 +69,7 @@ in {
 
     # Unstable / Latest Packages
     unstable.chromium
+    unstable.code-cursor
     unstable.discord-canary
     unstable.zed-editor
   ]);
