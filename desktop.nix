@@ -74,6 +74,7 @@ in {
     unstable.chromium
     unstable.code-cursor
     unstable.discord-canary
+    unstable.vicinae
     unstable.zed-editor
   ]);
 
