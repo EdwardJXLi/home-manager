@@ -29,6 +29,8 @@
     direnv
     htop
     neofetch
+    nix-search-cli
+    nh
     p7zip
     tree
     unzip
