@@ -45,6 +45,7 @@ in {
     gimp
     gparted
     inkscape
+    kitty
     krita
     libreoffice
     librewolf
