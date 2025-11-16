@@ -42,11 +42,9 @@ in {
     bitwarden-desktop
     boxbuddy
     emote
-    ghostty
     gimp
     gparted
     inkscape
-    kitty
     krita
     libreoffice
     librewolf
