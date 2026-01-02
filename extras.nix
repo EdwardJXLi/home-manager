@@ -40,6 +40,6 @@ in {
 
     # Unstable / Latest Packages
     unstable.claude-code
-    unstable.gemini-cli
+    unstable.gemini-cli-bin
   ];
 }
