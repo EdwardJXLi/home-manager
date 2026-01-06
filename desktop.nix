@@ -69,6 +69,7 @@ in {
     unfree.vscode
 
     # Unstable / Latest Packages
+    unstable.antigravity
     unstable.chromium
     unstable.code-cursor
     unstable.discord-canary
