@@ -33,6 +33,7 @@
     nix-search-cli
     nh
     lsof
+    lynx
     p7zip
     tree
     unzip
