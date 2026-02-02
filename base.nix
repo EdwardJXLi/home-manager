@@ -27,6 +27,7 @@
     # System Tools & Utilities
     btop
     direnv
+    gdb
     htop
     neofetch
     nettools
