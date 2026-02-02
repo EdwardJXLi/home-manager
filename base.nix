@@ -36,6 +36,7 @@
     lsof
     lynx
     p7zip
+    rsync
     tree
     unzip
     usbutils
