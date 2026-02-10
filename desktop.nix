@@ -66,7 +66,6 @@ in {
     # Unfree Apps
     unfree.jetbrains.idea-ultimate
     unfree.slack
-    unfree.vscode
 
     # Unstable / Latest Packages
     unstable.antigravity
@@ -74,6 +73,7 @@ in {
     unstable.code-cursor
     unstable.discord-canary
     unstable.vicinae
+    unstable.vscode
     unstable.zed-editor
   ]);
 
