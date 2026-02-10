@@ -22,6 +22,7 @@ in {
     shell-gpt
     tldr
     zellij
+    zoxide
 
     # Development Packages
     buildah
