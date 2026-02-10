@@ -26,21 +26,14 @@
 
     # System Tools & Utilities
     btop
-    direnv
-    gdb
     htop
     neofetch
     nettools
-    nix-search-cli
-    nh
     lsof
-    lynx
     p7zip
     rsync
-    smartmontools
     tree
     unzip
-    usbutils
     which
     zip
   ];

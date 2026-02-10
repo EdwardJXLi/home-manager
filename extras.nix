@@ -18,16 +18,23 @@ in {
     distrobox-tui
     glances
     lazygit
+    lynx
+    nix-search-cli
+    nh
     podman-tui
     shell-gpt
+    smartmontools
     tldr
+    usbutils
     zellij
     zoxide
 
     # Development Packages
     buildah
     corepack
+    direnv
     distrobox
+    gdb
     nodejs_24
     rustup
     podman
