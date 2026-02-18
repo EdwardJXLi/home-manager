@@ -16,7 +16,6 @@ in {
     # CLI Tools
     asciinema
     asciinema-agg
-    codex
     distrobox-tui
     glances
     lazygit
@@ -50,6 +49,7 @@ in {
 
     # Unstable / Latest Packages
     unstable.claude-code
+    unstable.codex
     unstable.gemini-cli-bin
   ];
 }
