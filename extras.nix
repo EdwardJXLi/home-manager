@@ -14,6 +14,8 @@ in {
   # Extra / non-required packages
   home.packages = with pkgs; [
     # CLI Tools
+    asciinema
+    asciinema-agg
     codex
     distrobox-tui
     glances
