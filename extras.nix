@@ -10,8 +10,10 @@
     glances
     lazygit
     lynx
-    nix-search-cli
+    ngrok
     nh
+    nix-search-cli
+    pgrok
     podman-tui
     radeontop
     shell-gpt
