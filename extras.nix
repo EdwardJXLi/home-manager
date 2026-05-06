@@ -6,7 +6,6 @@
     # CLI Tools
     asciinema
     asciinema-agg
-    distrobox-tui
     glances
     lazygit
     lynx
