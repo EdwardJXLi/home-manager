@@ -48,7 +48,6 @@
     # LLM Agents (numtide/llm-agents.nix)
     llmAgents.claude-code
     llmAgents.codex
-    llmAgents.gemini-cli
     llmAgents.opencode
     llmAgents.pi
   ];
