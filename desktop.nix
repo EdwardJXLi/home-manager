@@ -18,6 +18,7 @@ in {
     audacity
     bitwarden-desktop
     boxbuddy
+    btrfs-assistant
     emote
     gimp
     google-chrome
@@ -29,6 +30,7 @@ in {
     nwg-displays
     obs-studio
     podman-desktop
+    snapper-gui
     vlc
 
     # KDE Apps
