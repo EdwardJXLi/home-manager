@@ -9,6 +9,7 @@
     glances
     lazygit
     lynx
+    minio-client
     ngrok
     nh
     nix-search-cli
