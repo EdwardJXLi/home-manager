@@ -49,6 +49,7 @@ in {
     unstable.antigravity
     unstable.code-cursor
     unstable.discord-canary
+    unstable.gram
     unstable.vicinae
     unstable.vscode
     unstable.zed-editor
