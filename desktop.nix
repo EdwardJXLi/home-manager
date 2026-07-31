@@ -23,6 +23,7 @@ in {
     gimp
     google-chrome
     gparted
+    gram
     inkscape
     krita
     libreoffice
@@ -49,7 +50,6 @@ in {
     unstable.antigravity
     unstable.code-cursor
     unstable.discord-canary
-    unstable.gram
     unstable.vicinae
     unstable.vscode
     unstable.zed-editor
