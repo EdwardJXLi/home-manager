@@ -47,7 +47,7 @@ in {
     slack
 
     # Unstable / Latest Packages
-    unstable.antigravity
+    unstable.antigravity-ide
     unstable.code-cursor
     unstable.discord-canary
     unstable.vicinae
