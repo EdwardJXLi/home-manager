@@ -50,6 +50,7 @@
     llmAgents.antigravity-cli
     llmAgents.claude-code
     llmAgents.codex
+    llmAgents.nanocoder
     llmAgents.opencode
     llmAgents.pi
   ];
