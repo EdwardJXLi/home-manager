@@ -47,6 +47,7 @@
     rar
 
     # LLM Agents (numtide/llm-agents.nix)
+    llmAgents.antigravity-cli
     llmAgents.claude-code
     llmAgents.codex
     llmAgents.opencode
