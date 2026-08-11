@@ -10,6 +10,7 @@
     lazygit
     lynx
     minio-client
+    ncdu
     ngrok
     nh
     nix-search-cli
